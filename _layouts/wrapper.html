@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+    <div id="wrapper">
+	    <!-- navbar start -->
+        {% include navbar.html %}
+				
+        {{content}}
+
+        {% include footer.html %}
+		<!--/ footer End -->
+		
+		<!-- start scrollUp  -->
+        <div id="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+		<!--/ end scrollUp  -->
+    </div>
+    
+</body>
+</html>
